@@ -1,0 +1,9 @@
+h1_oracle versus runnerup
+paired episodes: 218
+scans: 11
+gain_d1 mean_direct_gain= 3.6808 scan_cluster_CI= 2.9675 4.5362 wins/losses/neutral= 218 0 0
+gain_d3 mean_direct_gain= 2.7753 scan_cluster_CI= 2.1634 3.3428 wins/losses/neutral= 150 37 31
+gain_d5 mean_direct_gain= 2.8029 scan_cluster_CI= 1.6685 3.7589 wins/losses/neutral= 119 31 68
+gain_terminal mean_direct_gain= 2.2011 scan_cluster_CI= 1.2134 3.0243 wins/losses/neutral= 82 18 118
+success: 92/218 -> 139/218 difference_pp= 21.5596 scan_cluster_CI_pp= 11.9792 30.8642 wins/losses= 53 6 McNemar_p= 0.0
+output: /home/asus/VLN-DUET/map_nav_src/analysis/duet_pcai/results/duet_oracle_vs_runnerup_pairwise.json

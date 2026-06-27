@@ -1,0 +1,9 @@
+gap_random versus runnerup
+paired episodes: 149
+scans: 10
+gain_d1 mean_direct_gain= -1.7055 scan_cluster_CI= -2.4313 -1.005 wins/losses/neutral= 31 118 0
+gain_d3 mean_direct_gain= -1.8126 scan_cluster_CI= -2.5464 -1.1734 wins/losses/neutral= 35 91 23
+gain_d5 mean_direct_gain= -1.3753 scan_cluster_CI= -2.3037 -0.6089 wins/losses/neutral= 32 69 48
+gain_terminal mean_direct_gain= -0.6564 scan_cluster_CI= -1.2613 -0.1344 wins/losses/neutral= 26 40 83
+success: 79/149 -> 70/149 difference_pp= -6.0403 scan_cluster_CI_pp= -12.931 0.0 wins/losses= 9 18 McNemar_p= 0.12207812
+output: /home/asus/VLN-DUET/map_nav_src/analysis/duet_pcai/results/duet_random_vs_runnerup_pairwise.json

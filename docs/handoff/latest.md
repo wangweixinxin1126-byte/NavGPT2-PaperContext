@@ -57,3 +57,18 @@ Optional:
 3. H1-oracle uses privileged goal distance and must be described as diagnostic only.
 4. Negative SCG/CTAS routes should not clutter the main story.
 
+
+## Update: DUET Pairwise Controls (2026-06-27)
+
+DUET val_unseen action-identity controls are complete.
+
+- H1-oracle versus runner-up: 218 paired episodes
+- H5 advantage: +2.8029 m, scan-cluster CI [1.6685, 3.7589]
+- Terminal advantage: +2.2011 m, CI [1.2134, 3.0243]
+- SR advantage: +21.5596 pp, McNemar p = 1.7539e-10
+- Gap-random versus runner-up: 149 paired episodes
+- H5 difference: -1.3753 m, CI [-2.3037, -0.6089]
+- Terminal difference: -0.6564 m, CI [-1.2613, -0.1344]
+- Gap-random SR difference is not significant: p = 0.1221
+
+Read `paper_context/09_duet_pairwise_controls.md` before drafting or revising the paper.

@@ -1,0 +1,31 @@
+===== NavGPT-2 H1-oracle vs runner-up =====
+paired episodes: 257
+scans: 11
+
+overall direct differences:
+gain_d1: +3.5622
+gain_d3: +2.9958
+gain_d5: +2.7169
+gain_terminal: +2.5716
+
+excluded_scan | n | H1 | H3 | H5 | terminal
+2azQ1b91cZZ | 199 | +3.6493 | +2.9901 | +2.8142 | +2.7427
+8194nk5LbLH | 254 | +3.5458 | +3.0727 | +2.7781 | +2.6020
+EU6Fwq7SyZv | 229 | +3.6703 | +3.1656 | +2.9089 | +2.7578
+QUCTc6BB5sX | 220 | +3.3857 | +2.7298 | +2.4709 | +2.4345
+TbHJrupSAjP | 235 | +3.6774 | +3.1548 | +2.8843 | +2.7054
+X7HyMhZNoso | 225 | +3.5631 | +3.0229 | +2.7730 | +2.5889
+Z6MFQCViBuw | 248 | +3.3753 | +2.7907 | +2.3920 | +2.2298
+oLBMNvg9in8 | 230 | +3.5449 | +3.0613 | +2.7435 | +2.6645
+pLe4wQe7qrG | 256 | +3.5745 | +2.9898 | +2.7098 | +2.5640
+x8F5xyUWy9e | 232 | +3.6963 | +3.1278 | +2.8484 | +2.6339
+zsNo4HB9uLZ | 242 | +3.5195 | +2.8490 | +2.5887 | +2.4117
+
+LOSO ranges and sign stability:
+gain_d1: +3.3753 to +3.6963; sign_stable=True
+gain_d3: +2.7298 to +3.1656; sign_stable=True
+gain_d5: +2.3920 to +2.9089; sign_stable=True
+gain_terminal: +2.2298 to +2.7578; sign_stable=True
+
+overall success difference: +0.2101
+LOSO success-difference range: +0.1976 to +0.2314

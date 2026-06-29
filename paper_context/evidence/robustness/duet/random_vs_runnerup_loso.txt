@@ -1,0 +1,30 @@
+===== DUET gap-random vs runner-up =====
+paired episodes: 149
+scans: 10
+
+overall direct differences:
+gain_d1: -1.7055
+gain_d3: -1.8126
+gain_d5: -1.3753
+gain_terminal: -0.6564
+
+excluded_scan | n | H1 | H3 | H5 | terminal
+2azQ1b91cZZ | 114 | -1.7321 | -1.8937 | -1.4516 | -0.6894
+EU6Fwq7SyZv | 135 | -1.7759 | -1.9333 | -1.3416 | -0.5555
+QUCTc6BB5sX | 133 | -1.4543 | -1.7556 | -1.4139 | -0.6166
+TbHJrupSAjP | 133 | -1.5429 | -1.7953 | -1.3409 | -0.7019
+X7HyMhZNoso | 132 | -1.7568 | -1.9536 | -1.6166 | -0.8430
+Z6MFQCViBuw | 138 | -1.8630 | -1.7395 | -1.0907 | -0.4882
+oLBMNvg9in8 | 138 | -1.7341 | -1.6386 | -1.2254 | -0.5829
+pLe4wQe7qrG | 145 | -1.7468 | -1.8349 | -1.3919 | -0.6745
+x8F5xyUWy9e | 138 | -1.6128 | -1.9603 | -1.5406 | -0.7085
+zsNo4HB9uLZ | 135 | -1.8299 | -1.6365 | -1.3616 | -0.7159
+
+LOSO ranges and sign stability:
+gain_d1: -1.8630 to -1.4543; sign_stable=True
+gain_d3: -1.9603 to -1.6365; sign_stable=True
+gain_d5: -1.6166 to -1.0907; sign_stable=True
+gain_terminal: -0.8430 to -0.4882; sign_stable=True
+
+overall success difference: -0.0604
+LOSO success-difference range: -0.0758 to -0.0376

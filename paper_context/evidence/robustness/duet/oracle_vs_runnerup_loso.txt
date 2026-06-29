@@ -1,0 +1,31 @@
+===== DUET H1-oracle vs runner-up =====
+paired episodes: 218
+scans: 11
+
+overall direct differences:
+gain_d1: +3.6808
+gain_d3: +2.7753
+gain_d5: +2.8029
+gain_terminal: +2.2011
+
+excluded_scan | n | H1 | H3 | H5 | terminal
+2azQ1b91cZZ | 167 | +3.8966 | +2.7088 | +2.5365 | +1.9232
+8194nk5LbLH | 217 | +3.6667 | +2.7966 | +2.8259 | +2.2112
+EU6Fwq7SyZv | 199 | +3.8069 | +2.8968 | +2.9544 | +2.3385
+QUCTc6BB5sX | 195 | +3.5236 | +2.5370 | +2.4560 | +1.9240
+TbHJrupSAjP | 192 | +3.8497 | +2.7329 | +2.7706 | +2.0661
+X7HyMhZNoso | 192 | +3.6404 | +2.8149 | +3.1327 | +2.4222
+Z6MFQCViBuw | 198 | +3.4535 | +2.7510 | +2.7137 | +2.2560
+oLBMNvg9in8 | 207 | +3.6391 | +2.7552 | +2.8385 | +2.2372
+pLe4wQe7qrG | 214 | +3.7147 | +2.7814 | +2.7883 | +2.1466
+x8F5xyUWy9e | 207 | +3.7760 | +2.8798 | +2.8771 | +2.3334
+zsNo4HB9uLZ | 192 | +3.5487 | +2.8552 | +2.8962 | +2.3064
+
+LOSO ranges and sign stability:
+gain_d1: +3.4535 to +3.8966; sign_stable=True
+gain_d3: +2.5370 to +2.8968; sign_stable=True
+gain_d5: +2.4560 to +3.1327; sign_stable=True
+gain_terminal: +1.9232 to +2.4222; sign_stable=True
+
+overall success difference: +0.2156
+LOSO success-difference range: +0.1823 to +0.2344

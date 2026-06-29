@@ -1,0 +1,45 @@
+===== OVERALL =====
+rows=500 scans=11 H1+=232 H5_retention=0.4224 terminal_retention=0.3448
+
+===== LEAVE-ONE-SCAN-OUT =====
+excluded_scan | n | H1+ | H5_retention | terminal_retention | mean_H5 | mean_terminal
+2azQ1b91cZZ | 430 | 200 | 0.4100 | 0.3350 | -0.0815 | 0.1913
+8194nk5LbLH | 495 | 230 | 0.4261 | 0.3435 | -0.1242 | 0.1212
+EU6Fwq7SyZv | 453 | 209 | 0.4258 | 0.3445 | -0.2142 | 0.0891
+QUCTc6BB5sX | 447 | 207 | 0.4348 | 0.3575 | 0.0486 | 0.3571
+TbHJrupSAjP | 426 | 192 | 0.4323 | 0.3542 | -0.2287 | 0.1043
+X7HyMhZNoso | 433 | 201 | 0.4229 | 0.3483 | -0.2089 | 0.1161
+Z6MFQCViBuw | 482 | 223 | 0.4170 | 0.3498 | -0.1037 | 0.1383
+oLBMNvg9in8 | 438 | 208 | 0.4135 | 0.3317 | -0.1802 | 0.1501
+pLe4wQe7qrG | 498 | 230 | 0.4174 | 0.3435 | -0.1481 | 0.1464
+x8F5xyUWy9e | 459 | 212 | 0.4151 | 0.3302 | -0.1995 | 0.0524
+zsNo4HB9uLZ | 439 | 208 | 0.4327 | 0.3558 | -0.1190 | 0.1378
+
+LOSO ranges:
+h5_retention: 0.4100 to 0.4348
+terminal_retention: 0.3302 to 0.3575
+mean_gain_d5: -0.2287 to 0.0486
+mean_gain_terminal: 0.0524 to 0.3571
+majority_conversion_stable: True (all LOSO H5 and terminal retention rates remain below 0.5)
+
+===== STEP STRATA =====
+group | n | H1+ | H5_retention | terminal_retention | mean_H5 | mean_terminal
+step 4-5 | 177 | 80 | 0.4000 | 0.3875 | -0.2253 | 0.1479
+step 2-3 | 290 | 134 | 0.4179 | 0.2910 | -0.1528 | 0.1170
+step 6-8 | 33 | 18 | 0.5556 | 0.5556 | 0.4115 | 0.3816
+
+===== LOGIT-GAP QUARTILES =====
+group | n | H1+ | H5_retention | terminal_retention | mean_H5 | mean_terminal
+Q1 | 125 | 60 | 0.4500 | 0.3500 | -0.1010 | -0.0547
+Q4 | 125 | 54 | 0.3889 | 0.2963 | -0.3948 | 0.1103
+Q2 | 125 | 65 | 0.4154 | 0.3692 | -0.0892 | 0.2403
+Q3 | 125 | 53 | 0.4340 | 0.3585 | 0.0201 | 0.2855
+
+===== CANDIDATE-COUNT STRATA =====
+group | n | H1+ | H5_retention | terminal_retention | mean_H5 | mean_terminal
+4-5 | 84 | 43 | 0.4884 | 0.3023 | 0.4465 | 0.9730
+6-8 | 182 | 83 | 0.3735 | 0.3012 | -0.2537 | -0.1459
+2-3 | 26 | 12 | 0.3333 | 0.1667 | -2.6028 | -2.9002
+9+ | 208 | 94 | 0.4468 | 0.4255 | 0.0276 | 0.4467
+
+Covariate coverage: {"joined": 500, "gap": 500, "candidate_count": 500}
